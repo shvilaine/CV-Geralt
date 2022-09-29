@@ -11,7 +11,7 @@
 </head>
 <body>
     <nav class="navbar dark-mode" role="navigation">
-        <div class="navtitle"> <?php include('navbar.php') ?> </div>
+        <div class="navtitle"> <h1>Home</h1></div>
         
         <ul class="navbar__links">
       <li class="navbar__link first"><a href="#">Home</a></li>
