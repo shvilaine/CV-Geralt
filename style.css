@@ -48,7 +48,12 @@ nav {
 header {
     display: flex;
     flex-direction: column;
-   
+    background-image: url('KaerMorhen.png');
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .background-image {
@@ -59,10 +64,10 @@ header {
     height: 70vh;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    
     background-attachment: fixed;
     background: rgba(0,0,0,0,7);
-    background-blend-mode: darken;
+    
 }
 
 .photo {
