@@ -37,7 +37,7 @@ nav {
 
 .navtitle {
     color: var(--light-grey);
-    font-size: var(--title-size);
+    font-size: calc(var(--subtitle-size));
     margin: 0;
 }
 
@@ -48,61 +48,41 @@ nav {
 header {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     background-image: url('KaerMorhen.png');
     height: 70vh;
     width: 100%;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-}
-
-.background-image {
-    display: flex;
-    justify-content: center;
-    background-image: url('KaerMorhen.png');
-    width: 100%;
-    height: 70vh;
-    background-size: cover;
-    background-position: center;
-    
-    background-attachment: fixed;
-    background: rgba(0,0,0,0,7);
-    
 }
 
 .photo {
-    display: flex;
-    justify-content: center;
     background-image: url('photo geralt.png');
-    margin-block-start: 20px;
-    border-radius: 50%;
     width: 8em;
     height: 8em;
+    border-radius: 50%;
     border: 0.25em solid;
     border-color: var(--dark-grey);
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
+    margin-block-start: 1.5em;
 }
 
-.photo h1 {
-    text-align: center;
-    font-size: calc(var(--title-size)*1.05); 
+header h1 {
+    font-size: calc(var(--title-size)*1.05);
     font-family: var(--font-title);
-    color: var(--dark-grey);
-    margin-block-start: 4em;
-    text-align: center;
-    text-overflow: ellipsis;
-    white-space: nowrap;
     text-shadow: 5px 3px 5px var(--light-grey);
+    margin-block-start: 0.4em;
 }
 
-.photo h2 {
-    display: flex;
-    justify-content: flex-start;
-    margin-block-start: 20em;
-    margin-inline-end: 10em;
+header h2 {
+    font-family: var(--font-title);
+    font-size: calc(var(--subtitle-size)*1.1);
     color: var(--light-grey);
-    font-size: 15px;
+    margin-top: 6.5em;
+    text-shadow: 5px 3px 5px var(--dark-grey);
 }
 
 .networks {
@@ -110,7 +90,7 @@ header {
     flex-direction: column;
     background-image: url(grey-pattern.jpg);
     position: relative;
-    height: 143px;
+    height: 13em;
     width: 100%;
     font-size: 10px;
     color: var(--dark-grey);
@@ -121,7 +101,7 @@ header {
     font-size: calc(var(--title-size)*1.35);
     text-align: center;
     justify-content: flex-start;
-    margin-block-start: 1em;
+    margin-block-start: 0.8em;
 }
 
 .icons {
