@@ -12,21 +12,17 @@
 <body>
     <nav>
         <div class="burger"></div>
-        <div class="navtitle" class="clickable"> <?php include('navbar.php') ?> </div>
+        <div class="navtitle"> <h1>HOME</h1> </div>
         <div class="message"></div>
     </nav>
 
     <header>
-        <div class="background-image">
-            <div class="photo">
-                <h1>Geralt of Rivia</h1>
-                <h2>Professional Witcher and Web Developer</h2>
-            </div>
-        </div>
+        <div class="photo"></div>
+        <h1>Geralt of Rivia</h1>
+        <h2>Witcher and Web Developer</h2>
     </header>
-
-    
-    <section class="networks">
+        
+     <section class="networks">
         <h1>My social networks</h1>
             <div class="icons">
                 <a href="#"><p><i class="fa-brands fa-linkedin"></i></p></a>
@@ -35,11 +31,13 @@
                 <a href="#"><p><i class="fa-brands fa-instagram"></i></p></a>
                 <a href="#"><p><i class="fa-brands fa-square-github"></i></p></a>
             </div>
-</section>
+    </section>
+
+    <footer>
+        <?php include('footer.php') ?>
+    </footer>
     
-<footer>
-    <?php include('footer.php') ?>
-</footer>
+
 
 </body>
 </html>
