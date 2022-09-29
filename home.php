@@ -29,10 +29,10 @@
         <div class="photo">
             <h1>Geralt of Rivia</h1>
         </div>
-</header>
+    </header>
 
     
-    <div class="networks">
+    <section class="networks">
         <h1>My social networks</h1>
     </div>
     
