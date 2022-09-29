@@ -9,6 +9,7 @@
     <title>Geralt's Resume - Home</title>
     <script src="https://kit.fontawesome.com/50a5351433.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <nav>
         <div class="burger"></div>
@@ -37,7 +38,5 @@
         <?php include('footer.php') ?>
     </footer>
     
-
-
 </body>
 </html>
