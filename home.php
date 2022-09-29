@@ -36,6 +36,6 @@
     <footer>
         <?php include('footer.php') ?>
     </footer>
-    git
+    
 </body>
 </html>
