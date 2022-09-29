@@ -40,9 +40,14 @@ nav {
 .navtitle {
     display: flex;
     color: var(--light-grey);
+<<<<<<< HEAD
     font-size: var(--title-size);
     margin-left: 45%;
     
+=======
+    font-size: calc(var(--subtitle-size));
+    margin: 0;
+>>>>>>> be05811dfc904629d4c2721c36d9ad1d1bde9dbf
 }
 
 .navtitle:hover {
