@@ -12,8 +12,7 @@
 
 <body>
     <nav>
-        <div class="burger"></div>
-        <div class="navtitle"> <h1>HOME</h1> </div>
+        <h1 class="navtitle">HOME</h1>
         <div class="message"></div>
     </nav>
 
