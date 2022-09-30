@@ -2,26 +2,12 @@
 /* Reset */
 
 
-ul {
-  list-style:none;
-}
-
 /* Basic style */
 
 
 /* Navbar */
-.navbar {  
-  display:flex;
-  align-items:center; 
-  justify-content:space-between;   
-  padding:10px;
-  font-size:1.1rem;
-  background:var(--dark-grey);
-  color:var(--light-grey);
-}
-.navbar__links { 
-  display:flex;  
-}
+
+
 .navbar__link { 
   padding:0 10px;
 }
@@ -29,8 +15,6 @@ ul {
   color:var(--light-grey);
   text-decoration:none;
 }
-
-
 
 .burger {
   display:none;

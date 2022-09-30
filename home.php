@@ -7,13 +7,13 @@
     <meta name="description" content="Website with an online resume of Geralt of Rivia, The Witcher">
     <link rel="stylesheet" href="style.css"> 
     <link rel="stylesheet" href="burger.css">
+    <script src="https://kit.fontawesome.com/50a5351433.js" crossorigin="anonymous"></script>
     <title>Geralt's Resume - Home</title>
 </head>
 
 <body>
     <nav>
-        <div class="burger"></div>
-        <div class="navtitle"> <h1>HOME</h1> </div>
+        <h1 class="navtitle">HOME</h1>
         <div class="message"></div>
     </nav>
 
@@ -38,5 +38,6 @@
         <?php include('footer.php') ?>
     </footer>
     
+
 </body>
 </html>
