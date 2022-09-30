@@ -21,9 +21,22 @@
         <h1>Geralt of Rivia</h1>
     </header>
 
-    
+    <section class="presentation">
+    <h1>Who am I ?</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet aliquid facilis aperiam repellendus aut odit! Earum obcaecati aliquam iure, dolores molestias quae perspiciatis tenetur unde harum non quis est officiis. <br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati iusto, perspiciatis vel neque aliquam odio dolorum quos aliquid quas eius excepturi repudiandae vero maiores delectus voluptates cumque cum! Deserunt, perspiciatis?</p>
+    <hr>
+    <h1>What do I like ?</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut assumenda reiciendis minima quasi dolore sint deleniti repellat exercitationem beatae, molestias aliquid pariatur excepturi accusamus odit sequi unde rem impedit error?<br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati iusto, perspiciatis vel neque aliquam odio dolorum quos aliquid quas eius excepturi repudiandae vero maiores delectus voluptates cumque cum! Deserunt, perspiciatis?</p>
+    <hr>
+    <h1>Awards & Honors</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut assumenda reiciendis minima quasi dolore sint deleniti repellat exercitationem beatae, molestias aliquid pariatur excepturi accusamus odit sequi unde rem impedit error?<br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati iusto, perspiciatis vel neque aliquam odio dolorum quos aliquid quas eius excepturi repudiandae vero maiores delectus voluptates cumque cum! Deserunt, perspiciatis?</p>
 
 
+
+    </section>
 
 
 </body>
