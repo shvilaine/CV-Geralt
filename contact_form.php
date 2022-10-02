@@ -21,13 +21,16 @@
     <article>
     <h1>Toss a coin to your developer!</h1>
             <section>
-            <h2>Contact form</h2>
+                <img src="Geralt-gif.gif"></img>
             <form action ="/form/submit">
-                <label for="Name">Nom</label>
-                    <input type="text" id="name" placeholder="Type your name here">
+                <h2>Contact form</h2>
+                <label for="Name">Name</label>
 </br>
-                <label for="Email">Mail</label>
-                    <input type="text" id="email" placeholder="Type your mail here">
+                <input type="text" id="name" placeholder="Type your name here">
+</br>
+                <label for="Email">Email</label>
+</br>
+                <input type="text" id="email" placeholder="Type your mail here">
 </br>
                 <label for="Location">Location</label>
                     <select id="Kingdom" name="location">
@@ -36,20 +39,22 @@
                         <option value="Cintra">Cintra</option>
                     </select>
 
-                <label for="Object">Objet</label>
+                <label for="Object"><Object>Object</Object></label>
                     <select id="Object" name="object">
-                        <option value="Relative">Retrouver une personne disparue</option>
-                        <option value="Monster">Chasser un monstre</option>
-                        <option value="Computer">C'est quoi Internet? C'est quoi un "développeur"?</option>
-                        <option value="Ciri">Vous avez vu Ciri? Où était-elle? Que faisait-elle?</option>
-                        <option value="Gwynt">Un petit Gwynt?</option>
-                        <option value="Other">Autre raison</option>
+                        <option value="Relative">Search for a missing relative</option>
+                        <option value="Monster">Hunt down a monster</option>
+                        <option value="Computer">What is this "developer" thing?</option>
+                        <option value="Ciri">Have you seen Ciri?</option>
+                        <option value="Gwynt">Let's play Gwynt!</option>
+                        <option value="Other">Other... </option>
                     </select>
 
-                <label for="Message">Ecrivez votre message</label>
-                    <textarea id="message" name="message" placeholder="Ecrivez votre message ici..." style="height: 200px">Ecrivez votre message ici...</textarea>
+                <label for="Message">Write your message</label>
+                    <textarea id="message" name="message" placeholder="Ecrivez votre message ici..." style="height: 200px">Write your message here... </textarea>
 
+                    <div class="submit">
                 <input type="submit" value="Send">
+                    </div>
             </form>
             </section>
 </article>
