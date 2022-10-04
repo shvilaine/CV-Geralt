@@ -1,96 +1,3 @@
-* { 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-@font-face {
-    font-family: 'witcherfont';
-    src: url(witcherfont.ttf);
-}
-
-@font-face {
-    font-family: 'classic-font';
-    src: url('classic-font.ttf');
-}
-
-:root {
-    --light-grey: #f7f7f7;
-    --medium-grey: #a0a0a1;
-    --dark-grey: #232229;
-    --red: #e60000;
-    --font-title: 'witcherfont';
-    --font-classic: 'classic-font';
-    --title-size: 2em;
-    --subtitle-size: calc(var(--title-size) / 1.5);
-    --text-size: calc(var(--title-size) / 2);
-    padding: 0%;
-}  
-
-body {
-    background-image: url('background-geralt.jpg');
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.15), 
-        rgba(0, 0, 0, 0));
-    background-size: cover;
-    font-family: var(--font-classic);
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    font-family: var(--font-title);
-    height: 4.5em;
-    width: 100%;
-    background-color: var(--dark-grey);
-    background-attachment: fixed;
-}
-
-.navtitle {
-    color: var(--light-grey);
-    font-size: calc(var(--subtitle-size));
-    font-family: var(--font-title);
-    margin: 0;
-}
-
-.navtitle:hover {
-    color: var(--red);
-}
-
-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    background-image: url('KaerMorhen.png');
-    height: 30vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-.photo {
-    background-image: url('photo geralt.png');
-    width: 7em;
-    height: 7em;
-    border-radius: 50%;
-    border: 0.25em solid;
-    border-color: var(--dark-grey);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-block-start: 1.5em;
-}
-
-header h1 {
-    font-size: calc(var(--title-size)/1.1);
-    font-family: var(--font-title);
-    text-shadow: 5px 3px 5px var(--light-grey);
-    margin-block-start: 0.5em;
-}
-
 .presentation h1 {
     font-family: var(--font-title);
     font-size: 2em;
@@ -105,8 +12,8 @@ header h1 {
 }
 
 .gif img {
-    height: 202px;
-    width: 161px;
+    height: 240px;
+    width: 191px;
     margin-block-end: 1em;
     border: 1px solid;
 }
@@ -126,7 +33,7 @@ header h1 {
 
 .presentation p {
     margin-block-start: 0.5em;
-    margin-block-end: 1em;
+    margin-block-end: 1.5em;
     margin-inline: 1em;
     font-size: calc(var(--text-size)*1.3);
 }
@@ -166,8 +73,8 @@ header h1 {
 }
 
 .gwent img {
-    margin-block: 1em;
-    margin-inline: 5em;
+    width: 383px;
+    height: 188px;
 }
 
 .gwent p {
@@ -185,3 +92,16 @@ footer {
     width: 100%;
     font-size: 1em;
 }
+
+@media screen and (min-width : 900px) {
+
+.presentation p {
+    font-size: 1.5em;
+    }
+
+
+.presentation ul {
+    font-size: 1.5em;
+    }
+}
+

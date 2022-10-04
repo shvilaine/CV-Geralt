@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Website with an online resume of Geralt of Rivia, The Witcher">
-    <link rel="stylesheet" href="about.css" href="base.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="base.css">
     <title>CV de Geralt - A Propos</title>
     </head>
 
@@ -62,8 +63,8 @@
         
 
     <div class="gwent">
-        <img alt="Geralt teleporting into a tavern" src="gwent.gif">
-        <p>Quelqu'un a parlé de Gwynt ?!</p>
+        <img alt="Geralt angry" src="geralt-angry.gif">
+        <p>Ne venez pas me déranger si vous n'avez pas de jeu de gwynt sur vous. Bien aimablement.</p>
     </div>
 
     <footer>

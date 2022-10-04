@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Website with an online resume of Geralt of Rivia, The Witcher">
-    <link rel="stylesheet" href="experience.css" href="base.css">
+    <link rel="stylesheet" href="experience.css">
+    <link rel="stylesheet" href="base.css">
     <title>CV de Geralt - Expérience</title>
     </head>
 

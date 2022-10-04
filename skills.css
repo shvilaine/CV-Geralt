@@ -1,92 +1,288 @@
-* { 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-@font-face {
-    font-family: 'witcherfont';
-    src: url(witcherfont.ttf);
-}
-
-@font-face {
-    font-family: 'classic-font';
-    src: url('classic-font.ttf');
-}
-
-:root {
-    --light-grey: #f7f7f7;
-    --medium-grey: #a0a0a1;
-    --dark-grey: #232229;
-    --red: #e60000;
-    --font-title: 'witcherfont';
-    --font-classic: 'classic-font';
-    --title-size: 2em;
-    --subtitle-size: calc(var(--title-size) / 1.5);
-    --text-size: calc(var(--title-size) / 2);
-    padding: 0%;
-}  
-
-body {
-    background-image: url('background-geralt.jpg');
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.1), 
-        rgba(0, 0, 0, 0));
-    background-size: cover;
-    font-family: var(--font-classic);
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
+.skills h1 {
     font-family: var(--font-title);
-    height: 4.5em;
-    width: 100%;
-    background-color: var(--dark-grey);
-    background-attachment: fixed;
+    margin-inline: 0.2em;
+    margin-block-start: 1em;
+    margin-block-end: 1.5em;
+    text-align: center;
 }
 
-.navtitle {
-    color: var(--light-grey);
-    font-size: calc(var(--subtitle-size));
-    font-family: var(--font-title);
-    margin: 0;
-}
-
-.navtitle:hover {
+.skills h1:hover {
     color: var(--red);
 }
 
-header {
+
+/* .skills-bar {
+    width: 600px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 12px 30px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2); 
+} */
+
+.skills-bar .bar {
+    margin: 20px 0;
+}
+
+.skills-bar .bar:first-child {
+    margin-top: 0px;   
+}
+
+.skills-bar .bar .info {
+    margin-bottom: 5px;
+}
+
+.skills-bar .bar .info span {
+    font-size: 17px;
+    font-weight: 500;
+    opacity: 0;
+    animation: showText 0.5s 1.5s linear forwards;
+}
+
+@keyframes showText {
+    100%{
+        opacity: 1;
+    }
+}
+
+.skills-bar .bar .progress-line {
+    height: 10px;
+    width: 95%;
+    background: #d2d2d2;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05),
+                      0px 1px rgba(255, 255, 255, 0.8);
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+.bar .progress-line span {
+    width: 80%;
+    height: 10px;
+    background: var(--dark-grey);
+    position: absolute;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+@keyframes animate {
+    100%{
+        transform: scaleX(1);
+    }
+}
+
+.progress-line.php span{
+    width: 90%;
+}
+
+.progress-line.html span{
+    width: 80%;
+}
+
+.progress-line.mysql span{
+    width: 90%;
+}
+
+.progress-line.css span{
+    width: 40%;
+}
+
+.progress-line.js span{
+    width: 70%;
+}
+
+
+
+
+.progress-line.hunt span{
+    width: 90%;
+}
+
+.progress-line.alchimie span{
+    width: 65%;
+}
+
+.progress-line.epee span{
+    width: 90%;
+}
+
+.progress-line.equitation span{
+    width: 80%;
+}
+
+.progress-line.bagarre span{
+    width: 85%;
+}
+
+
+
+.progress-line.rigor span{
+    width: 90%;
+}
+
+.progress-line.creativity span{
+    width: 70%;
+}
+
+.progress-line.stress span{
+    width: 95%;
+}
+
+.progress-line.maitrise span{
+    width: 85%;
+}
+
+.progress-line.communication span{
+    width: 35%;
+}
+
+
+
+.bar .progress-line span::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: -10px;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+
+@keyframes showText2 {
+    100%{
+        opacity: 1;
+    }
+}
+
+.bar .progress-line span::after {
+    position: absolute;
+    content: "80%";
+    right: 0;
+    top: -28px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    background: #000;
+    padding: 1px 8px;
+    border-radius: 3px;
+}
+
+.progress-line.php  span::after {
+    content: "90%";
+}
+
+.progress-line.html  span::after {
+    content: "80%";
+}
+
+.progress-line.mysql  span::after {
+    content: "90%";
+}
+
+.progress-line.css  span::after {
+    content: "40%";
+}
+
+.progress-line.js  span::after {
+    content: "70%";
+}
+
+
+
+.progress-line.hunt  span::after {
+    content: "90%";
+}
+
+.progress-line.alchimie  span::after {
+    content: "65%";
+}
+
+.progress-line.epee  span::after {
+    content: "90%";
+}
+
+.progress-line.equitation  span::after {
+    content: "80%";
+}
+
+.progress-line.bagarre  span::after {
+    content: "85%";
+}
+
+
+.progress-line.rigor span::after{
+    content: "90%";
+}
+
+.progress-line.creativity span::after{
+    content: "70%";
+}
+
+.progress-line.stress span::after{
+    content: "95%";
+}
+
+.progress-line.maitrise span::after{
+    content: "85%";
+}
+
+.progress-line.communication span::after{
+    content: "30%";
+}
+
+
+
+/* .skills h2 {
+    margin-block-start: 0.5em;
+    margin-block-end: 1em;
+    margin-inline: 0.5em;
+    font-size: calc(var(--subtitle-size)*1.1);
+} */
+
+p {
+    font-size: var(--subtitle-size);
+    margin-block-end: 1em;
+    text-align: center;
+    margin-inline: 0.5em;
+    font-style: italic;
+}
+
+.skills-bar .bar .info span {
+    font-size: calc(var(--subtitle-size)*1.2);
+}
+
+.math {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
-    background-image: url('KaerMorhen.png');
-    height: 30vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
-.photo {
-    background-image: url('photo geralt.png');
-    width: 7em;
-    height: 7em;
-    border-radius: 50%;
-    border: 0.25em solid;
-    border-color: var(--dark-grey);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-block-start: 1.5em;
+.math img {
+    width:300px;
+    height: auto;
+    margin-block-end: 1em;
 }
 
-header h1 {
-    font-size: calc(var(--title-size)/1.1);
-    font-family: var(--font-title);
-    text-shadow: 5px 3px 5px var(--light-grey);
-    margin-block-start: 0.5em;
+.fight {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+
+.fight img {
+    width:320px;
+    height: auto;
+    margin-block-end: 1em;
+}
+
+img {
+    margin-block-start: 1em;
+    border: 1px solid;
 }
