@@ -9,12 +9,13 @@
     align-items: center;
     width:0;
     height:calc(100vh - 65px);  
-    position:absolute;
+    position:fixed;
     top:65px;
     right:0; 
     background:var(--dark-grey);     
     transform: translateX(110%);
     transition: all .5s ease-in-out;
+    z-index: 1;
   }
 
   

@@ -10,24 +10,24 @@
     color: var(--red);
 }
 
-.skills-bar .bar {
+.skills-bar .bar2 {
     margin: 20px 0;
     margin-inline: var(--spacing);
 }
 
-.skills-bar .bar:hover {
+.skills-bar .bar2:hover {
     color: var(--red);
 }
 
-.skills-bar .bar:first-child {
+.skills-bar .bar2:first-child {
     margin-top: 0px;   
 }
 
-.skills-bar .bar .info {
+.skills-bar .bar2 .info {
     margin-bottom: 5px;
 }
 
-.skills-bar .bar .info span {
+.skills-bar .bar2 .info span {
     font-size: 17px;
     font-weight: 500;
     opacity: 0;
@@ -40,7 +40,7 @@
     }
 }
 
-.skills-bar .bar .progress-line {
+.skills-bar .bar2 .progress-line {
     height: 10px;
     width: 95%;
     background: #d2d2d2;
@@ -52,7 +52,7 @@
     animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
 }
 
-.bar .progress-line span {
+.bar2 .progress-line span {
     width: 80%;
     height: 10px;
     background: var(--dark-grey);
@@ -63,7 +63,7 @@
     animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
 }
 
-.bar .progress-line span:hover {
+.bar2 .progress-line span:hover {
     background: var(--red);
 }
 
@@ -138,7 +138,7 @@
     width: 40%;
 }
 
-.bar .progress-line span::before {
+.bar2 .progress-line span::before {
     position: absolute;
     content: "";
     right: 0;
@@ -159,7 +159,7 @@
     }
 }
 
-.bar .progress-line span::after {
+.bar2 .progress-line span::after {
     position: absolute;
     content: "80%";
     right: 0;
@@ -248,7 +248,7 @@ p {
     font-style: italic;
 }
 
-.skills-bar .bar .info span {
+.skills-bar .bar2 .info span {
     font-size: var(--text-size);
     font-weight: 700;
 }

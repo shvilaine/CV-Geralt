@@ -38,6 +38,7 @@ body {
         rgba(0, 0, 0, 0));
     background-size: cover;
     font-family: var(--font-classic);
+    padding-block-start: 4.5rem;
 }
 
 nav {
@@ -46,9 +47,12 @@ nav {
     align-items: center;
     margin: 0;
     font-family: var(--font-title);
-    height: 4.5em;
+    height: 4.5rem;
     width: 100%;
     background-color: var(--dark-grey);
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
 

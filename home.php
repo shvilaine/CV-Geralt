@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Website with an online resume of Geralt of Rivia, The Witcher">
+    <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="burgercss.css">
     <title>Geralt's Resume - Home</title>
@@ -34,7 +35,7 @@
     <header>
         <div class="photo"></div>
         <h1>Geralt de Riv</h1>
-        <h2>Sorceleur et Developpeur</h2>
+        <h2 class="home">Sorceleur et Developpeur</h2>
     </header>
 
      <section class="networks">
