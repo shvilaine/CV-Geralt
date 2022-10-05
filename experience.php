@@ -25,7 +25,7 @@
 <section class="experiences">
 
 
-    <h1>Developpeur Web</h1><h2>- Pont Vanis, Kovir </h2>
+    <h1>Developpeur Web</h1><h2>- Pont Vanis, Kovir</h2>
     <p>Suite à l'obtention de mon diplôme de développeur, j'ai eu la chance de travailler
         pour le compte du roi du Kovir, qui m'a chargé de développer le site officiel du royaume.
         Mon travail a permis d'augmenter le trafic du site de 30% dans tous les royaumes du Nord.</p>
