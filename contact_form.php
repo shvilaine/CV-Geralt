@@ -22,35 +22,38 @@
     <h1>Toss a coin to your developer!</h1>
             <section>
                 <img src="Geralt-gif.gif"></img>
-            <form action ="/form/submit">
-                <h2>Contact form</h2>
-                <label for="Name">Name</label>
+            <form action ="/form/submit" method="post">
+                <h2>Contactez-moi</h2>
+                <label for="name">Nom</label>
 </br>
-                <input type="text" id="name" placeholder="Type your name here">
+                <input type="text" id="name" placeholder="Ecrivez votre nom ici">
 </br>
-                <label for="Email">Email</label>
+                <label for="email">Email</label>
 </br>
-                <input type="text" id="email" placeholder="Type your mail here">
+                <input type="email" id="email" placeholder="Ecrivez votre email ici">
 </br>
-                <label for="Location">Location</label>
-                    <select id="Kingdom" name="location">
-                        <option value="Novigrad">Novigrad</option>
-                        <option value="Skellige">Skellige</option>
-                        <option value="Cintra">Cintra</option>
+                <label for="Location">Région</label>
+                    <select id="kingdom" name="location">
+                        <option value="cintra">Cintra</option>
+                        <option value="novigrad">Novigrad</option>
+                        <option value="skellige">Skellige</option>
+                        <option value="temeria">Temeria</option>
+                        <option value="toussaint">Toussaint</option>
+                        <option value="velen">Velen</option>
                     </select>
 
-                <label for="Object"><Object>Object</Object></label>
-                    <select id="Object" name="object">
-                        <option value="Relative">Search for a missing relative</option>
-                        <option value="Monster">Hunt down a monster</option>
-                        <option value="Computer">What is this "developer" thing?</option>
-                        <option value="Ciri">Have you seen Ciri?</option>
-                        <option value="Gwynt">Let's play Gwynt!</option>
-                        <option value="Other">Other... </option>
+                <label for="object"><Object>Objet</Object></label>
+                    <select id="object" name="object">
+                        <option value="relative">Rechercher une personne disparue</option>
+                        <option value="ronster">Chasser / Tuer un monstre</option>
+                        <option value="computer">C'est quoi un "développeur"? </option>
+                        <option value="ciri">Vous avez vu Ciri?</option>
+                        <option value="gwynt">Un petit Gwynt?</option>
+                        <option value="other">Autres </option>
                     </select>
 
-                <label for="Message">Write your message</label>
-                    <textarea id="message" name="message" placeholder="Ecrivez votre message ici..." style="height: 200px">Write your message here... </textarea>
+                <label for="message">Votre message</label>
+                    <textarea id="message" name="message" placeholder="Ecrivez votre message ici..." style="height: 200px">Ecrivez votre message ici...</textarea>
 
                     <div class="submit">
                 <input type="submit" value="Send">
