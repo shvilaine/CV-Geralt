@@ -17,10 +17,10 @@
         <h1 class="navtitle">COMPETENCES</h1> 
 
         <ul class="navbar__links">
-      <li class="navbar__link first"><a href="#">Accueil</a></li>
-      <li class="navbar__link second"><a href="#section2">Services</a></li>
-      <li class="navbar__link third"><a href="#">Missions</a></li>
-      <li class="navbar__link four"><a href="#">Portfolio</a></li>
+        <li class="navbar__link first"><a href="home.php">Accueil</a></li>
+      <li class="navbar__link second"><a href="about.php">A propros</a></li>
+      <li class="navbar__link third"><a href="experience.php">Experience</a></li>
+      <li class="navbar__link four"><a href="skills.php">Competences</a></li>
       <li class="navbar__link fifth"><a href="#">Contact</a></li>
     </ul>   
     <button class="burger">
@@ -150,7 +150,7 @@
             </div>
             <div class="progress-line stress"><span></span></div>
         </div>
-        <div class="bar2>
+        <div class="bar2">
             <div class="info">
                 <span>Maîtrise de soi</span>
             </div>

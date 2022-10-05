@@ -12,7 +12,7 @@
 .experiences h2 {
     font-family: var(--font-title);
     font-size: calc(var(--subtitle-size)1.1);
-    color: var(--light-grey);
+    color: var(--dark-grey);
     margin-top: 6em;
     text-shadow: 5px 3px 5px var(--dark-grey);
 }
