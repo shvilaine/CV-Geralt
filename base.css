@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
-
 @font-face {
     font-family: 'witcherfont';
     src: url(witcherfont.ttf);
@@ -38,27 +39,30 @@ body {
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     margin: 0;
     font-family: var(--font-title);
     height: 4.5em;
     width: 100%;
     background-color: var(--dark-grey);
-    background-attachment: fixed;
 }
+
 
 .navtitle {
     color: var(--light-grey);
-    font-size: calc(var(--subtitle-size));
-    font-family: var(--font-title);
-    margin: 0;
+    font-size: 40px;
+    margin-left: 50px;
+    
+    
+
 }
+
+
 
 .navtitle:hover {
     color: var(--red);
 }
-
 header {
     display: flex;
     flex-direction: column;
@@ -73,7 +77,7 @@ header {
 }
 
 .photo {
-    background-image: url('photo geralt.png');
+    background-image: url('photo_geralt.png');
     width: 7em;
     height: 7em;
     border-radius: 50%;
