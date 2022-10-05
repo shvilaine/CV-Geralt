@@ -24,6 +24,7 @@
     padding: 0%;
 }
 
+
 nav {
     display: flex;
     justify-content:space-between;
@@ -37,8 +38,9 @@ nav {
 
 .navtitle {
     color: var(--light-grey);
-    font-size: calc(var(--subtitle-size));
-    margin-right: 0;
+    font-size: 40px;
+    margin-left: 50px;
+    
     
 
 }

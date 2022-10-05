@@ -13,8 +13,9 @@
 <body>
     <nav class="navbar dark-mode" role="navigation">
     
-        
+        <div></div>
         <h1 class="navtitle">HOME</h1> 
+        
        
         <ul class="navbar__links">
       <li class="navbar__link first"><a href="#">Accueil</a></li>

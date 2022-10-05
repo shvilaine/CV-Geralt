@@ -1,39 +1,33 @@
 
-ul {
-  list-style:none;
-}
 
-/* Basic style */
-
-
-/* Navbar */
-
-
-
-
-/*  Small device */
-
+   
   .navbar__links { 
     overflow:hidden;
     display:flex;
     flex-direction:column;
+    justify-content: center;
+    align-items: center;
     width:0;
     height:calc(100vh - 65px);  
     position:absolute;
     top:65px;
-    right:0;     
+    right:0; 
     background:var(--dark-grey);     
     transform: translateX(110%);
     transition: all .5s ease-in-out;
   }
+
+  
   .show-nav .navbar__links { 
     
     width:100vw;    
     transform: translateX(0);
+   
   } 
   .navbar__link {    
     transform: translateX(101%);
     transition: all .5s ease-in-out;
+    
   }
   
   .show-nav .navbar__link  {        
@@ -41,10 +35,12 @@ ul {
   }   
   .navbar__link > a {
     display:block;
-    padding:1rem;
-    font-size:1.6rem;
+    
+    padding: 2rem;
+    font-size:40px;
     color:var(--light-grey);  
     transition: all .4s ease-in-out;
+
   }
   .navbar__link > a:hover {
     padding-left:2rem;
@@ -62,7 +58,11 @@ ul {
     border:none;
     background:transparent;
     cursor:pointer;
+    margin-right: 20px;
+   
   }
+ 
+  
   .bar {
     display:block;    
     width:45px;
