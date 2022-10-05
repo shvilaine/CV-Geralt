@@ -153,7 +153,7 @@ select {
     cursor: pointer;
 }
 
-input[type=text], textarea {
+input[type=text], input[type=email], textarea {
     box-sizing: border-box; 
     width: 100%;
     margin-top: 8px;
@@ -178,6 +178,7 @@ input[type=submit] {
 .submit {
     align-items: center;
     text-align: center;
+    font-size: var(--subtitle-size);
 }
 
 input[type=submit]:hover {
