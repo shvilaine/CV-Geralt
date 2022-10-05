@@ -24,8 +24,9 @@
     --font-classic: 'classic-font';
     --title-size: 2em;
     --subtitle-size: calc(var(--title-size) / 1.5);
-    --text-size: calc(var(--title-size) / 2);
+    --text-size: 1.3em;
     --spacing: 1em;
+    --spacing-xs: 0.5em;
     --spacing-xl: 2.5em;
     padding: 0%;
 }  
