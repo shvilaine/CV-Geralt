@@ -102,6 +102,18 @@ header h1 {
     margin-block-start: 0.5em;
 }
 
+.presentation h1 {
+    font-family: var(--font-title);
+    font-size: 1.5em;
+    margin-inline-start: 0.5em;
+    margin-block-start: 0.5em;
+}
+
+.presentation p {
+    margin-block-end: 1em;
+    margin-inline: 1em;
+}
+
 footer {
     display: flex;
     justify-content: center;
