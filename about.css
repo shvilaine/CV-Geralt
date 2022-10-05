@@ -1,0 +1,107 @@
+.presentation h1 {
+    font-family: var(--font-title);
+    font-size: 2em;
+    margin-inline-start: 0.5em;
+    margin-block-start: 0.5em;
+}
+
+.gif {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gif img {
+    height: 240px;
+    width: 191px;
+    margin-block-end: 1em;
+    border: 1px solid;
+}
+
+.gif p {
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.presentation h1 {
+    font-size: var(--title-size);
+}
+
+.presentation h1:hover {
+    color: var(--red);
+}
+
+.presentation p {
+    margin-block-start: 0.5em;
+    margin-block-end: 1.5em;
+    margin-inline: 1em;
+    font-size: calc(var(--text-size)*1.3);
+}
+
+.presentation ul {
+    margin-inline-start: 2em;
+    margin-inline-end: 1em;
+    font-size: calc(var(--text-size)*1.3);
+    list-style: armenian;
+}
+
+.presentation ul li {
+    margin-block-start: 0.5em;
+}
+
+.roach {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.roach img {
+    height: 180px;
+    width: 296px;
+    margin-block: 1em;
+    border: 1px solid;
+}
+
+.roach p {
+    justify-content: flex-end;
+}
+
+.gwent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gwent img {
+    width: 383px;
+    height: 188px;
+}
+
+.gwent p {
+    justify-content: flex-end;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-grey);
+    color: var(--light-grey); 
+    height: 2.5em;
+    width: 100%;
+    font-size: 1em;
+}
+
+@media screen and (min-width : 900px) {
+
+.presentation p {
+    font-size: 1.5em;
+    }
+
+
+.presentation ul {
+    font-size: 1.5em;
+    }
+}
+

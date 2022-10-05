@@ -1,0 +1,23 @@
+.experiences h1 {
+    font-family: var(--font-title);
+    font-size: var(--title-size);
+    margin-inline-start: 0.5em;
+    margin-block-start: 0.5em;
+}
+
+.experiences h1:hover {
+    color: var(--red);
+}
+
+.experiences h2 {
+    font-family: var(--font-classic);
+    margin-inline-start: 1em;
+    margin-block-end: 0.5em;
+}
+
+.experiences p {
+    margin-block-start: 0.5em;
+    margin-block-end: 1em;
+    margin-inline: 1em;
+    font-size: calc(var(--text-size)*1.3);
+}
