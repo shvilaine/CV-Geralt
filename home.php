@@ -5,16 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Website with an online resume of Geralt of Rivia, The Witcher">
-    <link rel="stylesheet" href="home.css"> 
-    <link rel="stylesheet" href="burger.css" href="base.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="burgercss.css">
+    <title>Geralt's Resume - Home</title>
     <script src="https://kit.fontawesome.com/50a5351433.js" crossorigin="anonymous"></script>
-    <title>CV de Geralt - Accueil</title>
 </head>
 
 <body>
-    <nav>
-        <h1 class="navtitle">ACCUEIL</h1>
-        <div class="message"></div>
+    <nav class="navbar dark-mode" role="navigation">
+    
+        <div></div>
+        <h1 class="navtitle">HOME</h1> 
+        
+       
+        <ul class="navbar__links">
+      <li class="navbar__link first"><a href="#">Accueil</a></li>
+      <li class="navbar__link second"><a href="#section2">Services</a></li>
+      <li class="navbar__link third"><a href="#">Missions</a></li>
+      <li class="navbar__link four"><a href="#">Portfolio</a></li>
+      <li class="navbar__link fifth"><a href="#">Contact</a></li>
+    </ul>   
+    <button class="burger">
+      <span class="bar"></span>  
+     </button> 
+     
     </nav>
 
     <header>
@@ -22,7 +36,7 @@
         <h1>Geralt de Riv</h1>
         <h2>Sorceleur et Developpeur</h2>
     </header>
-        
+
      <section class="networks">
         <h1>Mes reseaux sociaux</h1>
             <div class="icons">
@@ -38,6 +52,6 @@
         <?php include('footer.php') ?>
     </footer>
     
-
+    <script type="text/javascript" src="burger.js"></script>
 </body>
 </html>
