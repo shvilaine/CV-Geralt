@@ -2,7 +2,7 @@
     font-family: var(--font-title);
     margin-inline: 0.2em;
     margin-block-start: 1em;
-    margin-block-end: 1.5em;
+    margin-block-end: 1em;
     text-align: center;
 }
 
@@ -21,6 +21,7 @@
 
 .skills-bar .bar {
     margin: 20px 0;
+    margin-inline: 1em;
 }
 
 .skills-bar .bar:hover {
@@ -143,10 +144,8 @@
 }
 
 .progress-line.communication span{
-    width: 35%;
+    width: 40%;
 }
-
-
 
 .bar .progress-line span::before {
     position: absolute;
@@ -242,21 +241,17 @@
 }
 
 .progress-line.communication span::after{
-    content: "30%";
+    content: "35%";
+}
+
+.progress-line.communication {
+    margin-block-end: 2.5em;
 }
 
 
-
-/* .skills h2 {
-    margin-block-start: 0.5em;
-    margin-block-end: 1em;
-    margin-inline: 0.5em;
-    font-size: calc(var(--subtitle-size)*1.1);
-} */
-
 p {
     font-size: var(--subtitle-size);
-    margin-block-end: 1em;
+    margin-block-end: var(--spacing);
     text-align: center;
     margin-inline: 0.5em;
     font-style: italic;
@@ -276,7 +271,7 @@ p {
 .math img {
     width:300px;
     height: auto;
-    margin-block-end: 1em;
+    margin-block-end: var(--spacing);
 }
 
 .fight {
@@ -288,10 +283,10 @@ p {
 .fight img {
     width:320px;
     height: auto;
-    margin-block-end: 1em;
 }
 
 img {
-    margin-block-start: 1em;
+    margin-block-start: 2.5em;
+    margin-block-end: var(--spacing);
     border: 1px solid;
 }

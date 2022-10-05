@@ -118,7 +118,7 @@
     <hr>
 
     <h1>Soft Skills</h1>
-    
+
        <div class="skills-bar">
         <div class="bar">
             <div class="info">
@@ -151,10 +151,12 @@
             <div class="progress-line communication"><span></span></div>
         </div>
     </div>
-    
-
 
     </section>
+
+    <footer>
+        <?php include('footer.php') ?>
+    </footer>
 
 </body>
 </html>
