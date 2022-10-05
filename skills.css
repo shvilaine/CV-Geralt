@@ -1,8 +1,8 @@
 .skills h1 {
     font-family: var(--font-title);
     margin-inline: 0.2em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-start: var(--spacing);
+    margin-block-end: var(--spacing);
     text-align: center;
 }
 
@@ -10,18 +10,9 @@
     color: var(--red);
 }
 
-
-/* .skills-bar {
-    width: 600px;
-    background: #fff;
-    border-radius: 10px;
-    padding: 12px 30px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.2); 
-} */
-
 .skills-bar .bar {
     margin: 20px 0;
-    margin-inline: 1em;
+    margin-inline: var(--spacing);
 }
 
 .skills-bar .bar:hover {
@@ -245,7 +236,7 @@
 }
 
 .progress-line.communication {
-    margin-block-end: 2.5em;
+    margin-block-end: var(--spacing-xl);
 }
 
 
@@ -253,12 +244,12 @@ p {
     font-size: var(--subtitle-size);
     margin-block-end: var(--spacing);
     text-align: center;
-    margin-inline: 0.5em;
+    margin-inline: var(--spacing-xs);
     font-style: italic;
 }
 
 .skills-bar .bar .info span {
-    font-size: calc(var(--subtitle-size)*1.2);
+    font-size: var(--text-size);
     font-weight: 700;
 }
 
@@ -286,7 +277,7 @@ p {
 }
 
 img {
-    margin-block-start: 2.5em;
+    margin-block-start: var(--spacing);
     margin-block-end: var(--spacing);
     border: 1px solid;
 }
