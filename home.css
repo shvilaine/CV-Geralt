@@ -16,6 +16,7 @@
     src: url('classic-font.ttf');
 }
 
+
 :root {
     --light-grey: #f7f7f7;
     --medium-grey: #a0a0a1;
@@ -25,9 +26,11 @@
     --font-classic: 'classic-font';
     --title-size: 2em;
     --subtitle-size: calc(var(--title-size) / 1.5);
-    --text-size: 1.3em;
+    --text-size: calc(var(--title-size) / 2);
+    --spacing: 1em;
+    --spacing-xl: 2.5em;
     padding: 0%;
-}
+}  
 
 
 nav {
@@ -71,8 +74,8 @@ header {
 
 .photo {
     background-image: url('photo_geralt.png');
-    width: 8em;
-    height: 8em;
+    width: 7em;
+    height: 7em;
     border-radius: 50%;
     border: 0.25em solid;
     border-color: var(--dark-grey);
@@ -136,7 +139,6 @@ header h2 {
 }
 
 footer {
-    font-family: var(--font-classic);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,5 +146,5 @@ footer {
     color: var(--light-grey); 
     height: 2.5em;
     width: 100%;
-    font-size: 10px;
+    font-size: 1em;
 }

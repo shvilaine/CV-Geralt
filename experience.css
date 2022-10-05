@@ -1,8 +1,8 @@
 .experiences h1 {
+    font-size: calc(var(--title-size)1.05);
     font-family: var(--font-title);
-    font-size: var(--title-size);
-    margin-inline-start: 0.5em;
-    margin-block-start: 0.5em;
+    text-shadow: 5px 3px 5px var(--light-grey);
+    margin-block-start: 0.4em;
 }
 
 .experiences h1:hover {
@@ -10,9 +10,11 @@
 }
 
 .experiences h2 {
-    font-family: var(--font-classic);
-    margin-inline-start: 1em;
-    margin-block-end: 0.5em;
+    font-family: var(--font-title);
+    font-size: calc(var(--subtitle-size)1.1);
+    color: var(--light-grey);
+    margin-top: 6em;
+    text-shadow: 5px 3px 5px var(--dark-grey);
 }
 
 .experiences p {

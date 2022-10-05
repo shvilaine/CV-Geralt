@@ -7,14 +7,26 @@
     <meta name="description" content="Website with an online resume of Geralt of Rivia, The Witcher">
     <link rel="stylesheet" href="experience.css">
     <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="burgercss.css">
     <title>CV de Geralt - Expérience</title>
     </head>
 
 <body>
-    <nav>
-        <div class="burger"></div>
-        <div class="navtitle"> <h1>Experience</h1> </div>
-        <div class="message"></div>
+    <nav class="navbar dark-mode" role="navigation">
+    <div></div>
+        
+        <h1 class="navtitle">Experience</h1> 
+        
+        <ul class="navbar__links">
+      <li class="navbar__link first"><a href="#">Accueil</a></li>
+      <li class="navbar__link second"><a href="#section2">Services</a></li>
+      <li class="navbar__link third"><a href="#">Missions</a></li>
+      <li class="navbar__link four"><a href="#">Portfolio</a></li>
+      <li class="navbar__link fifth"><a href="#">Contact</a></li>
+    </ul>   
+    <button class="burger">
+      <span class="bar"></span>  
+     </button> 
     </nav>
 
     <header>
@@ -46,3 +58,4 @@
         j'y ai appris le combat, l'alchimie, et tous les rudiments du métier de sorceleur
         auprès de Vesemir, mon mentor de toujours.
 </section>
+<script type="text/javascript" src="burger.js"></script>
