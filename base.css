@@ -24,6 +24,8 @@
     --title-size: 2em;
     --subtitle-size: calc(var(--title-size) / 1.5);
     --text-size: calc(var(--title-size) / 2);
+    --spacing: 1em;
+    --spacing-xl: 2.5em;
     padding: 0%;
 }  
 
@@ -89,4 +91,15 @@ header h1 {
     font-family: var(--font-title);
     text-shadow: 5px 3px 5px var(--light-grey);
     margin-block-start: 0.5em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-grey);
+    color: var(--light-grey); 
+    height: 2.5em;
+    width: 100%;
+    font-size: 1em;
 }
