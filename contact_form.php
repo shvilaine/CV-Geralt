@@ -17,11 +17,10 @@
             <h1>Geralt of Rivia</h1>
         </header>
 <body>
-    <main>
-    <article>
-    <h1>Toss a coin to your developer!</h1>
+    <h1 class="thunes">Toss a coin to your developer!</h1>
+        <main>
             <section>
-                <img src="Geralt-gif.gif"></img>
+                <img src="Geralt-gifEnGrand.gif"></img>
             <form action ="/form/submit" method="post">
                 <h2>Contactez-moi</h2>
                 <label for="name">Nom</label>
@@ -59,8 +58,7 @@
                 <input type="submit" value="Send">
                     </div>
             </form>
-            </section>
-</article>
-</main>
+        </section>
+    </main>
 </body>
 </html>
