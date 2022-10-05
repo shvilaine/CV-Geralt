@@ -7,14 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style_contact_form.css">
     <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="burgercss.css">
     <title>Contact form</title>
 </head>
-<nav>
-    <div class="burger"></div>
-    <div class="navtitle">
-        <h1>CONTACT</h1>
-    </div>
-    <div class="message"></div>
+<nav nav class="navbar dark-mode" role="navigation">
+    <div></div>
+    
+        <h1 class="navtitle">CONTACT</h1>
+    
+        <ul class="navbar__links">
+      <li class="navbar__link first"><a href="home.php">Accueil</a></li>
+      <li class="navbar__link second"><a href="about.php">A propros</a></li>
+      <li class="navbar__link third"><a href="experience.php">Experience</a></li>
+      <li class="navbar__link four"><a href="skills.php">Competences</a></li>
+      <li class="navbar__link fifth"><a href="contact_form.php">Contact</a></li>
+    </ul>   
+    <button class="burger">
+      <span class="bar"></span>  
+     </button> 
+
 </nav>
 <header>
     <div class="photo"></div>
@@ -65,6 +76,7 @@
             </form>
         </section>
     </main>
+    <script type="text/javascript" src="burger.js"></script>
 </body>
 
 </html>
