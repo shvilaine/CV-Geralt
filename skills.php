@@ -118,6 +118,7 @@
     <hr>
 
     <h1>Soft Skills</h1>
+    
        <div class="skills-bar">
         <div class="bar">
             <div class="info">

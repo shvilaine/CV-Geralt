@@ -23,6 +23,10 @@
     margin: 20px 0;
 }
 
+.skills-bar .bar:hover {
+    color: var(--red);
+}
+
 .skills-bar .bar:first-child {
     margin-top: 0px;   
 }
@@ -65,6 +69,10 @@
     transform: scaleX(0);
     transform-origin: left;
     animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+.bar .progress-line span:hover {
+    background: var(--red);
 }
 
 @keyframes animate {
@@ -256,6 +264,7 @@ p {
 
 .skills-bar .bar .info span {
     font-size: calc(var(--subtitle-size)*1.2);
+    font-weight: 700;
 }
 
 .math {
