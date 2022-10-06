@@ -51,6 +51,11 @@
     margin-block-start: var(--spacing-xs);
 }
 
+a {
+    color: var(--red);
+    text-decoration: none;
+}
+
 .roach {
     display: flex;
     flex-direction: column;
