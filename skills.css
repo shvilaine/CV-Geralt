@@ -1,7 +1,8 @@
 .skills h1 {
     font-family: var(--font-title);
     font-size: var(--title-size);
-    margin-block: 1em;
+    margin-block: var(--spacing);
+    margin-inline: var(--spacing);
     text-align: center;
 }
 
@@ -282,12 +283,12 @@ hr {
     }
 
     .skills-bar {
-        margin-block-end: 3em;
+        margin-block-end: 2em;
     }
 
     .skills-bar .bar {
         margin-block: 2em;
-        margin-inline-start: calc(var(--spacing-xl)*1.2);
+        margin-inline-start: calc(var(--spacing-xl)*1.3);
     }
 
     .skills-bar .bar .info span {
@@ -308,5 +309,9 @@ hr {
 
     h2 {
         font-size: calc(var(--title-size)/1.1);
+    }
+
+    .skills-bar .bar .info span {
+        font-size: var(--title-size);
     }
 }
