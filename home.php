@@ -13,24 +13,24 @@
 </head>
 
 <body>
-    <nav class="navbar dark-mode" role="navigation">
+<nav class="navbar dark-mode" role="navigation">
     
-        <div></div>
-        <h1 class="navtitle">HOME</h1> 
-        
-       
-        <ul class="navbar__links">
-      <li class="navbar__link first"><a href="home.php">Accueil</a></li>
-      <li class="navbar__link second"><a href="about.php">A propros</a></li>
-      <li class="navbar__link third"><a href="experience.php">Experience</a></li>
-      <li class="navbar__link four"><a href="skills.php">Competences</a></li>
-      <li class="navbar__link fifth"><a href="contact_form.php">Contact</a></li>
-    </ul>   
-    <button class="burger">
-      <span class="bar"></span>  
-     </button> 
-     
-    </nav>
+    <div></div>
+    <h1 class="navtitle">Accueil</h1> 
+    
+   
+    <ul class="navbar__links">
+  <li class="navbar__link first"><a href="home.php">Accueil</a></li>
+  <li class="navbar__link second"><a href="about.php">A propos</a></li>
+  <li class="navbar__link third"><a href="experience.php">Experience</a></li>
+  <li class="navbar__link four"><a href="skills.php">Competences</a></li>
+  <li class="navbar__link fifth"><a href="contact_form.php">Contact</a></li>
+</ul>   
+<button class="burger">
+  <span class="bar"></span>  
+ </button> 
+ 
+</nav>
 
     <header>
         <div class="photo"></div>
@@ -41,11 +41,12 @@
      <section class="networks">
         <h1>Mes reseaux sociaux</h1>
             <div class="icons">
-                <a href="#"><p><i class="fa-brands fa-linkedin"></i></p></a>
-                <a href="#"><p><i class="fa-brands fa-square-facebook"></i></p></a>
-                <a href="#"><p><i class="fa-brands fa-square-twitter"></i></p></a>
-                <a href="#"><p><i class="fa-brands fa-instagram"></i></p></a>
-                <a href="#"><p><i class="fa-brands fa-square-github"></i></p></a>
+                <a href="https://tr.linkedin.com/in/geralt-rivia-858950216/fr?trk=people-guest_people_search-card"><p><i class="fa-brands fa-linkedin"></i></p></a>
+                <a href="https://fr-fr.facebook.com/people/Geralt-Riv/100072174681862/"><p><i class="fa-brands fa-square-facebook"></i></p></a>
+                <a href="https://twitter.com/geraltde_riv"><p><i class="fa-brands fa-square-twitter"></i></p></a>
+                <a href="https://www.instagram.com/geralt_off_rivia/"><p><i class="fa-brands fa-instagram"></i></p></a>
+                <a href="https://github.com/topics/geralt-from-rivia"><p><i class="fa-brands fa-square-github"></i></p></a>
+                <i class="arrow"></i>
             </div>
     </section>
 
