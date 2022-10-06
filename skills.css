@@ -1,9 +1,11 @@
 .skills h1 {
     font-family: var(--font-title);
-    font-size: var(--title-size);
-    margin-block: 1em;
+    margin-inline: 0.2em;
+    margin-block-start: var(--spacing);
+    margin-block-end: var(--spacing);
     text-align: center;
 }
+
 
 .skills h1:hover {
     color: var(--red);

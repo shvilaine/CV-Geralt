@@ -13,7 +13,6 @@
 </head>
 
 <body>
-<<<<<<< HEAD
 <nav class="navbar dark-mode" role="navigation">
         <div></div>
         <h1 class="navtitle">A PROPOS</h1> 
@@ -28,14 +27,6 @@
     <button class="burger">
       <span class="bar"></span>  
      </button> 
-=======
-    <nav>
-        <div class="burger"></div>
-        <div class="navtitle">
-            <h1>A PROPOS</h1>
-        </div>
-        <div class="message"></div>
->>>>>>> 47485c7d51fc7e8ea8ba3f4d79a5524b3f64ea40
     </nav>
 
     <header>

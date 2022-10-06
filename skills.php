@@ -67,6 +67,7 @@
             <div class="info">
                 <span>JavaScript</span>
             </div>
+            <div class="progress-line js"><span></span></div>
         </div>
 
         <!--<h2>PHP</h2>
@@ -111,6 +112,7 @@
             <div class="info">
                 <span>Combat à mains nues</span>
             </div>
+            <div class="progress-line bagarre"><span></span></div>
         </div>
 
         <div class="picture">
@@ -119,7 +121,7 @@
         </div>
         <hr>
 
-        <h1>Soft Skills</h1>
+        
 
     <h1>Soft Skills</h1>
 
@@ -152,6 +154,7 @@
             <div class="info">
                 <span>Amabilité</span>
             </div>
+            <div class="progress-line communication"><span></span></div>
         </div>
 
     </section>
