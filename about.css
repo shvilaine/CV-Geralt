@@ -2,8 +2,7 @@
     font-family: var(--font-title);
     font-size: var(--title-size);
     margin-inline-start: var(--spacing-xs);
-    margin-block-start: var(--spacing);
-    margin-block-end: var(--spacing);
+    margin-block: var(--spacing);
 }
 
 .presentation p {
@@ -19,8 +18,8 @@
 }
 
 .gif img {
-    height: 240px;
-    width: 191px;
+    height: auto;
+    width: 200px;
     margin-block-start: var(--spacing-xl);
     margin-block-end: var(--spacing);
     border: 1px solid;
@@ -30,7 +29,6 @@
     justify-content: flex-end;
     text-align: center;
     font-style: italic;
-    margin-block-end: var(--spacing);
 }
 
 .presentation h1 {
@@ -60,8 +58,8 @@
 }
 
 .roach img {
-    height: 180px;
-    width: 296px;
+    width: 300px;
+    height: auto;
     margin-block-start: var(--spacing-xl);
     margin-block-end: var(--spacing);
     border: 1px solid;
@@ -69,7 +67,6 @@
 
 .roach p {
     justify-content: flex-end;
-    margin-block-end: var(--spacing);
     font-style: italic;
     text-align: center;
 }
@@ -94,16 +91,84 @@
     font-style: italic;
 }
 
-
-@media screen and (min-width : 900px) {
-
-.presentation p {
-    font-size: 1.5em;
-    }
-
-
-.presentation ul {
-    font-size: 1.5em;
-    }
+hr {
+    margin-block: var(--spacing-xl);
 }
 
+@media screen and (min-width : 834px) {
+
+    .presentation h1 {
+        margin-inline: calc(var(--spacing)*1.8);
+        font-size: calc(var(--title-size)*1.1);
+    }
+    
+    .presentation p {
+        margin-inline: var(--spacing-xl);
+        font-size: calc(var(--text-size)*1.2);
+    }
+
+    .presentation ul {
+        font-size: calc(var(--text-size)*1.2);  
+    }
+
+    .presentation ul li {
+        margin-inline-start: var(--spacing-xl);
+    }
+
+    .gif {
+        flex-direction: row;
+        justify-content: center;
+        gap: var(--spacing-xl);
+    }
+
+    .gif img {
+        width: 250px;
+    }
+
+    .gif p {
+        font-size: calc(var(--text-size)*1.2);  
+    }
+
+    .hobbies {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .hobbies-text h1 {
+        margin-block-start: 0
+    }
+
+    .hobbies .roach {
+        margin-inline-end: var(--spacing-xl);
+    }
+
+    .hobbies .roach img {
+        width: 400px;
+    }
+
+    .hobbies .roach p {
+        font-size: calc(var(--text-size)*1.2);  
+    }
+
+    .gwent {
+        flex-direction: row;
+        justify-content: center;
+        gap: var(--spacing-xl);
+        margin-block-end: 3em;
+    }
+    
+    .gwent img {
+        margin-inline-start: 0;
+        width: 400px;
+    }
+
+    .gwent p {
+        font-size: calc(var(--text-size)*1.2);  
+    }
+   
+    hr {
+        margin-block: var(--spacing-xl);
+    }
+
+}

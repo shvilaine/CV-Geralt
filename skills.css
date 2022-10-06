@@ -1,8 +1,7 @@
 .skills h1 {
     font-family: var(--font-title);
-    margin-inline: 0.2em;
-    margin-block-start: var(--spacing);
-    margin-block-end: var(--spacing);
+    font-size: var(--title-size);
+    margin-block: 1em;
     text-align: center;
 }
 
@@ -35,7 +34,7 @@
 }
 
 @keyframes showText {
-    100%{
+    100% {
         opacity: 1;
     }
 }
@@ -48,8 +47,8 @@
     transform: scaleX(0);
     transform-origin: left;
     box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05),
-                      0px 1px rgba(255, 255, 255, 0.8);
-    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+        0px 1px rgba(255, 255, 255, 0.8);
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
 
 .bar2 .progress-line span {
@@ -68,73 +67,73 @@
 }
 
 @keyframes animate {
-    100%{
+    100% {
         transform: scaleX(1);
     }
 }
 
-.progress-line.php span{
+.progress-line.php span {
     width: 90%;
 }
 
-.progress-line.html span{
+.progress-line.html span {
     width: 80%;
 }
 
-.progress-line.mysql span{
+.progress-line.mysql span {
     width: 90%;
 }
 
-.progress-line.css span{
+.progress-line.css span {
     width: 40%;
 }
 
-.progress-line.js span{
+.progress-line.js span {
     width: 70%;
 }
 
 
 
 
-.progress-line.hunt span{
+.progress-line.hunt span {
     width: 90%;
 }
 
-.progress-line.alchimie span{
+.progress-line.alchimie span {
     width: 65%;
 }
 
-.progress-line.epee span{
+.progress-line.epee span {
     width: 90%;
 }
 
-.progress-line.equitation span{
+.progress-line.equitation span {
     width: 80%;
 }
 
-.progress-line.bagarre span{
+.progress-line.bagarre span {
     width: 85%;
 }
 
 
 
-.progress-line.rigor span{
+.progress-line.rigor span {
     width: 90%;
 }
 
-.progress-line.creativity span{
+.progress-line.creativity span {
     width: 70%;
 }
 
-.progress-line.stress span{
+.progress-line.stress span {
     width: 95%;
 }
 
-.progress-line.maitrise span{
+.progress-line.maitrise span {
     width: 85%;
 }
 
-.progress-line.communication span{
+.progress-line.communication span {
     width: 40%;
 }
 
@@ -154,84 +153,83 @@
 }
 
 @keyframes showText2 {
-    100%{
+    100% {
         opacity: 1;
     }
 }
 
 .bar2 .progress-line span::after {
     position: absolute;
-    content: "80%";
     right: 0;
     top: -28px;
     color: #fff;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 700;
     background: #000;
     padding: 1px 8px;
     border-radius: 3px;
 }
 
-.progress-line.php  span::after {
+.progress-line.php span::after {
     content: "90%";
 }
 
-.progress-line.html  span::after {
+.progress-line.html span::after {
     content: "80%";
 }
 
-.progress-line.mysql  span::after {
+.progress-line.mysql span::after {
     content: "90%";
 }
 
-.progress-line.css  span::after {
+.progress-line.css span::after {
     content: "40%";
 }
 
-.progress-line.js  span::after {
+.progress-line.js span::after {
     content: "70%";
 }
 
 
 
-.progress-line.hunt  span::after {
+.progress-line.hunt span::after {
     content: "90%";
 }
 
-.progress-line.alchimie  span::after {
+.progress-line.alchimie span::after {
     content: "65%";
 }
 
-.progress-line.epee  span::after {
+.progress-line.epee span::after {
     content: "90%";
 }
 
-.progress-line.equitation  span::after {
+.progress-line.equitation span::after {
     content: "80%";
 }
 
-.progress-line.bagarre  span::after {
+.progress-line.bagarre span::after {
     content: "85%";
 }
 
 
-.progress-line.rigor span::after{
+.progress-line.rigor span::after {
     content: "90%";
 }
 
-.progress-line.creativity span::after{
+.progress-line.creativity span::after {
     content: "70%";
 }
 
-.progress-line.stress span::after{
+.progress-line.stress span::after {
     content: "95%";
 }
 
-.progress-line.maitrise span::after{
+.progress-line.maitrise span::after {
     content: "85%";
 }
 
-.progress-line.communication span::after{
+.progress-line.communication span::after {
     content: "35%";
 }
 
@@ -240,12 +238,13 @@
 }
 
 
-p {
+h2 {
     font-size: var(--subtitle-size);
-    margin-block-end: var(--spacing);
-    text-align: center;
-    margin-inline: var(--spacing-xs);
+    font-family: var(--font-classic);
+    margin-inline: var(--spacing);
     font-style: italic;
+    font-weight: 100;
+    text-align: center;
 }
 
 .skills-bar .bar2 .info span {
@@ -253,31 +252,75 @@ p {
     font-weight: 700;
 }
 
-.math {
+
+.picture {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.math img {
-    width:300px;
-    height: auto;
-    margin-block-end: var(--spacing);
-}
-
-.fight {
-    display: flex;
-    flex-direction: column;
-    align-items:  center;
-}
-
-.fight img {
-    width:320px;
-    height: auto;
-}
-
 img {
-    margin-block-start: var(--spacing);
+    width: 320px;
+    height: auto;
+    margin-block-start: var(--spacing-xl);
     margin-block-end: var(--spacing);
     border: 1px solid;
+}
+
+hr {
+    margin-block: var(--spacing-xl);
+}
+
+
+
+@media screen and (min-width: 834px) {
+
+
+    .skills h1 {
+        font-size: calc(var(--title-size)*1.1);
+    }
+
+    .picture {
+        flex-direction: row;
+        justify-content: center;
+        gap: var(--spacing-xl);
+    }
+
+    img {
+        width: 380px;
+        margin-inline-start: var(--spacing-xl);
+    }
+
+    h2 {
+        font-size: calc(var(--title-size)/1.2);
+    }
+
+    .skills-bar {
+        margin-block-end: 3em;
+    }
+
+    .skills-bar .bar {
+        margin-block: 2em;
+        margin-inline-start: calc(var(--spacing-xl)*1.2);
+    }
+
+    .skills-bar .bar .info span {
+        font-size: calc(var(--title-size)/1.1);
+    }
+
+    .bar .progress-line span::after {
+        font-size: 20px;
+        padding: 0 8px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    img {
+        width: 450px;
+    }
+
+    h2 {
+        font-size: calc(var(--title-size)/1.1);
+    }
 }

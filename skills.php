@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +10,7 @@
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="burgercss.css">
     <title>CV de Geralt - Compétences</title>
-    </head>
+</head>
 
 <body>
     <nav class="navbar dark-mode" role="navigation">
@@ -66,21 +67,19 @@
             <div class="info">
                 <span>JavaScript</span>
             </div>
-            <div class="progress-line js"><span></span></div>
         </div>
-    </div>
 
-    <!--<h2>PHP</h2>
+        <!--<h2>PHP</h2>
     <h2>Javascript</h2>
     <h2>C++</h2>
     <h2>HTML</h2>
     <h2>CSS</h2> -->
 
-    <div class="math">
-    <img alt="Geralt doing math" src="geralt-math.gif">
-    <p>Mon premier face-à-face avec un cours de formulaire en PHP. Le chemin n'a pas été de tout repos...</p>
-    </div>
-    <hr>
+        <div class="picture">
+            <img alt="Geralt doing math" src="geralt-math.gif">
+            <h2>Mon premier face-à-face avec un cours sur les formulaires. Le chemin n'a pas été de tout repos...</h2>
+        </div>
+        <hr>
 
     <h1>Competences de sorceleur</h1>
     <div class="skills-bar">
@@ -112,22 +111,15 @@
             <div class="info">
                 <span>Combat à mains nues</span>
             </div>
-            <div class="progress-line bagarre"><span></span></div>
         </div>
-    </div>
 
-<!-- 
-    <h2>Combat à l'épée</h2>
-    <h2>Chasse aux monstres</h2>
-    <h2>Combat à mains nues</h2>
-    <h2>Équitation</h2>
-    <h2>Alchimie</h2>  -->
+        <div class="picture">
+            <img alt="Geralt fighting bad guys" src="fight.gif">
+            <h2>Certains m'appellent le Boucher de Blaviken, d'autres l'Assassin du PHP.</h2>.
+        </div>
+        <hr>
 
-    <div class="fight">
-    <img alt="Geralt fighting bad guys" src="fight.gif">
-    <p>Le Boucher de Blaviken pour les uns, le Tueur du Dev pour les autres.
-    </div>
-    <hr>
+        <h1>Soft Skills</h1>
 
     <h1>Soft Skills</h1>
 
@@ -160,9 +152,7 @@
             <div class="info">
                 <span>Amabilité</span>
             </div>
-            <div class="progress-line communication"><span></span></div>
         </div>
-    </div>
 
     </section>
     <div class="btn"><i class="icon"></i>
@@ -177,4 +167,5 @@
     <script type="text/javascript" src="arrow.js"></script>
     <script type="text/javascript" src="burger.js"></script>
 </body>
+
 </html>
