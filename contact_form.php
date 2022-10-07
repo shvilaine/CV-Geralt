@@ -40,16 +40,17 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style_contact_form.css">
-    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="css/style_contact_form.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/burgercss.css">
     <title>Contact form</title>
 </head>
-<nav>
-    <div class="burger"></div>
-    <div class="navtitle">
-        <h1>CONTACT</h1>
-    </div>
-    <div class="message"></div>
+<nav nav class="navbar dark-mode" role="navigation">
+    <div></div>
+
+    <h1 class="navtitle">CONTACT</h1>
+    <?php include('navbar.php') ?>
+
 </nav>
 <header>
     <div class="photo"></div>
@@ -71,11 +72,12 @@ if (isset($wrongInputs) && count($wrongInputs) > 0) { ?>
     </div>
 <?php }; ?>
 
+
 <body>
     <h1 class="thunes">Toss a coin to your developer!</h1>
     <main>
         <section>
-            <img src="Geralt-gifEnGrand.gif"></img>
+            <img src="images/Geralt-gifEnGrand.gif"></img>
             <form action='' method="POST">
                 <h2>Contactez-moi</h2>
                 <label for="name">Nom</label>
@@ -95,6 +97,7 @@ if (isset($wrongInputs) && count($wrongInputs) > 0) { ?>
                     <option value="toussaint">Toussaint</option>
                     <option value="velen">Velen</option>
                 </select>
+
 
                 <label for="object"><Object>Objet</Object></label>
                 <select name="object" required>
@@ -116,8 +119,16 @@ if (isset($wrongInputs) && count($wrongInputs) > 0) { ?>
         </section>
     </main>
 </body>
+<div class="btn"><i class="icon"></i>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="btn" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+    </svg>
+</div>
+
 <footer>
     <?php include('footer.php') ?>
 </footer>
+<script type="text/javascript" src="js/arrow.js"></script>
+<script type="text/javascript" src="js/burger.js"></script>
 
 </html>
