@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Website with an online resume of Geralt of Rivia, The Witcher">
-    <link rel="stylesheet" href="skills.css">
-    <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="burgercss.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/burgercss.css">
     <title>CV de Geralt - Compétences</title>
 </head>
 
@@ -17,16 +17,7 @@
         <div></div>
         <h1 class="navtitle">COMPETENCES</h1> 
 
-        <ul class="navbar__links">
-        <li class="navbar__link first"><a href="home.php">Accueil</a></li>
-      <li class="navbar__link second"><a href="about.php">A propos</a></li>
-      <li class="navbar__link third"><a href="experience.php">Experience</a></li>
-      <li class="navbar__link four"><a href="skills.php">Competences</a></li>
-      <li class="navbar__link fifth"><a href="contact_form.php">Contact</a></li>
-    </ul>   
-    <button class="burger">
-      <span class="bar"></span>  
-     </button> 
+        <?php include('navbar.php') ?>
         
     </nav>
 
@@ -70,14 +61,8 @@
             <div class="progress-line js"><span></span></div>
         </div>
 
-        <!--<h2>PHP</h2>
-    <h2>Javascript</h2>
-    <h2>C++</h2>
-    <h2>HTML</h2>
-    <h2>CSS</h2> -->
-
         <div class="picture">
-            <img alt="Geralt doing math" src="geralt-math.gif">
+            <img alt="Geralt doing math" src="images/geralt-math.gif">
             <h2>Mon premier face-à-face avec un cours sur les formulaires. Le chemin n'a pas été de tout repos...</h2>
         </div>
         <hr>
@@ -116,12 +101,10 @@
         </div>
 
         <div class="picture">
-            <img alt="Geralt fighting bad guys" src="fight.gif">
+            <img alt="Geralt fighting bad guys" src="images/fight.gif">
             <h2>Certains m'appellent le Boucher de Blaviken, d'autres l'Assassin du PHP.</h2>.
         </div>
         <hr>
-
-        
 
     <h1>Soft Skills</h1>
 
@@ -167,8 +150,9 @@
     <footer>
         <?php include('footer.php') ?>
     </footer>
-    <script type="text/javascript" src="arrow.js"></script>
-    <script type="text/javascript" src="burger.js"></script>
+
+    <script type="text/javascript" src="js/arrow.js"></script>
+    <script type="text/javascript" src="js/burger.js"></script>
 </body>
 
 </html>

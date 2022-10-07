@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Website with an online resume of Geralt of Rivia, The Witcher">
-    <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="burgercss.css">
-    <link rel="stylesheet" href="experience.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/burgercss.css">
+    <link rel="stylesheet" href="css/experience.css">
     <title>CV de Geralt - Expérience</title>
 </head>
 
@@ -17,17 +17,7 @@
     <div></div>
         
         <h1 class="navtitle">Experience</h1> 
-        
-        <ul class="navbar__links">
-        <li class="navbar__link first"><a href="home.php">Accueil</a></li>
-      <li class="navbar__link second"><a href="about.php">A propos</a></li>
-      <li class="navbar__link third"><a href="experience.php">Experience</a></li>
-      <li class="navbar__link four"><a href="skills.php">Competences</a></li>
-      <li class="navbar__link fifth"><a href="contact_form.php">Contact</a></li>
-    </ul>   
-    <button class="burger">
-      <span class="bar"></span>  
-     </button> 
+        <?php include('navbar.php') ?>
     </nav>
 
     <header>
@@ -38,7 +28,7 @@
     <section>
         <h1>Experiences professionnelles</h1>
         <div class="card">
-            <img src="geralt-app.png" alt="Geralt's app picture">
+            <img src="images/geralt-app.png" alt="Geralt's app picture">
             <div class="description">
                 <h1>Developpeur Web</h1>
                 <h2>- Pont Vanis, Kovir</h2>
@@ -49,7 +39,7 @@
         </div>
 
         <div class="card">
-            <img src="geralt-monster.gif">
+            <img src="images/geralt-monster.gif">
             <div class="description">
                 <h1>Maitre Sorceleur</h1>
                 <h2>- Monde entier</h2>
@@ -67,13 +57,13 @@
   <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
 </svg>
     </div>
-    <script type="text/javascript" src="arrow.js"></script>
-<script type="text/javascript" src="burger.js"></script>
+    <script type="text/javascript" src="js/arrow.js"></script>
+<script type="text/javascript" src="js/burger.js"></script>
     <section>
         <h1>Formations & Ecoles</h1>
 
         <div class="card">
-            <img src="aretuza.png">
+            <img src="images/aretuza.png">
             <div class="description">
                 <h1>Apprenti Developpeur</h1>
                 <h2>- Wild Code School, Oxenfurt, Redania</h2>
@@ -84,7 +74,7 @@
         </div>
 
         <div class="card">
-            <img src="kaer-2.png">
+            <img src="images/kaer-2.png">
             <div class="description">
                 <h1>Apprenti Sorceleur</h1>
                 <h2>- Kaer Morhen, Kaedwen</h2>

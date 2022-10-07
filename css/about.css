@@ -165,12 +165,14 @@ hr {
     }
     
     .gwent img {
-        margin-inline-start: 0;
+        margin-inline-start: var(--spacing-xl);
         width: 400px;
     }
 
     .gwent p {
-        font-size: calc(var(--text-size)*1.2);  
+        font-size: calc(var(--text-size)*1.2);
+        margin: 0;
+        margin-inline-end: 2em;  
     }
    
     hr {

@@ -7,12 +7,12 @@
 
 @font-face {
     font-family: 'witcherfont';
-    src: url(witcherfont.ttf);
+    src: url('../font/witcherfont.ttf');
 }
 
 @font-face {
     font-family: 'classic-font';
-    src: url('classic-font.ttf');
+    src: url('../font/classic-font.ttf');
 }
 
 :root {
@@ -73,7 +73,7 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-image: url('KaerMorhen.png');
+    background-image: url('../images/KaerMorhen.png');
     height: 30vh;
     width: 100%;
     background-size: cover;
@@ -82,7 +82,7 @@ header {
 }
 
 .photo {
-    background-image: url('photo_geralt.png');
+    background-image: url('../images/photo_geralt.png');
     width: 7em;
     height: 7em;
     border-radius: 50%;
