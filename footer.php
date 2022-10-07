@@ -1,3 +1,5 @@
 <?php
 
-echo "© 2022 Geralt of Rivia. All rights reserved.";
+echo "© 2022 Geralt de Riv. All rights reserved.";
+
+?>

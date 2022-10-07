@@ -1,0 +1,180 @@
+.presentation h1 {
+    font-family: var(--font-title);
+    font-size: var(--title-size);
+    margin-inline-start: var(--spacing-xs);
+    margin-block: var(--spacing);
+}
+
+.presentation h1:hover {
+    color: var(--red);
+}
+
+.presentation p {
+    margin-block-start: var(--spacing);
+    margin-inline: var(--spacing);
+    font-size: var(--text-size);
+}
+
+.gif {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gif img {
+    height: auto;
+    width: 200px;
+    margin-block-start: var(--spacing-xl);
+    margin-block-end: var(--spacing);
+    border: 1px solid;
+}
+
+.gif p {
+    justify-content: flex-end;
+    text-align: center;
+    font-style: italic;
+}
+
+.presentation ul {
+    margin-inline-start: var(--spacing-xl);
+    margin-block-start: var(--spacing);
+    margin-inline-end: var(--spacing);
+    font-size: var(--text-size);
+    list-style: armenian;
+}
+
+.presentation ul li {
+    margin-block-start: var(--spacing-xs);
+}
+
+a {
+    color: var(--red);
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkred;
+    text-decoration: dashed;
+}
+
+.roach {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.roach img {
+    width: 300px;
+    height: auto;
+    margin-block-start: var(--spacing-xl);
+    margin-block-end: var(--spacing);
+    border: 1px solid;
+}
+
+.roach p {
+    justify-content: flex-end;
+    font-style: italic;
+    text-align: center;
+}
+
+.gwent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gwent img {
+    margin-block-start: var(--spacing-xl);
+    margin-block-end: var(--spacing);
+    width: 320px;
+    height: auto;
+}
+
+.gwent p {
+    justify-content: flex-end;
+    text-align: center;
+    margin-block-end: var(--spacing);
+    font-style: italic;
+}
+
+hr {
+    margin-block: var(--spacing-xl);
+}
+
+@media screen and (min-width : 834px) {
+
+    .presentation h1 {
+        margin-inline: calc(var(--spacing)*1.8);
+        font-size: calc(var(--title-size)*1.1);
+    }
+    
+    .presentation p {
+        margin-inline: var(--spacing-xl);
+        font-size: calc(var(--text-size)*1.2);
+    }
+
+    .presentation ul {
+        font-size: calc(var(--text-size)*1.2);  
+    }
+
+    .presentation ul li {
+        margin-inline-start: var(--spacing-xl);
+    }
+
+    .gif {
+        flex-direction: row;
+        justify-content: center;
+        gap: var(--spacing-xl);
+    }
+
+    .gif img {
+        width: 250px;
+    }
+
+    .gif p {
+        font-size: calc(var(--text-size)*1.2);  
+    }
+
+    .hobbies {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .hobbies-text h1 {
+        margin-block-start: 0
+    }
+
+    .hobbies .roach {
+        margin-inline-end: var(--spacing-xl);
+    }
+
+    .hobbies .roach img {
+        width: 400px;
+    }
+
+    .hobbies .roach p {
+        font-size: calc(var(--text-size)*1.2);  
+    }
+
+    .gwent {
+        flex-direction: row;
+        justify-content: center;
+        gap: var(--spacing-xl);
+        margin-block-end: 3em;
+    }
+    
+    .gwent img {
+        margin-inline-start: 0;
+        width: 400px;
+    }
+
+    .gwent p {
+        font-size: calc(var(--text-size)*1.2);  
+    }
+   
+    hr {
+        margin-block: var(--spacing-xl);
+    }
+
+}
