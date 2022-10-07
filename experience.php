@@ -7,17 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Website with an online resume of Geralt of Rivia, The Witcher">
     <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="burgercss.css">
     <link rel="stylesheet" href="experience.css">
     <title>CV de Geralt - Expérience</title>
 </head>
 
 <body>
-    <nav>
-        <div class="burger"></div>
-        <div class="navtitle">
-            <h1>Experience</h1>
-        </div>
-        <div class="message"></div>
+    <nav class="navbar dark-mode" role="navigation">
+    <div></div>
+        
+        <h1 class="navtitle">Experience</h1> 
+        
+        <ul class="navbar__links">
+        <li class="navbar__link first"><a href="home.php">Accueil</a></li>
+      <li class="navbar__link second"><a href="about.php">A propos</a></li>
+      <li class="navbar__link third"><a href="experience.php">Experience</a></li>
+      <li class="navbar__link four"><a href="skills.php">Competences</a></li>
+      <li class="navbar__link fifth"><a href="contact_form.php">Contact</a></li>
+    </ul>   
+    <button class="burger">
+      <span class="bar"></span>  
+     </button> 
     </nav>
 
     <header>
@@ -51,6 +61,14 @@
 
     <hr>
 
+
+<div class="btn"><i class="icon"></i>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="btn" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+</svg>
+    </div>
+    <script type="text/javascript" src="arrow.js"></script>
+<script type="text/javascript" src="burger.js"></script>
     <section>
         <h1>Formations & Ecoles</h1>
 
