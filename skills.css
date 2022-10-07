@@ -29,8 +29,8 @@
 }
 
 .skills-bar .bar2 .info span {
-    font-size: 17px;
-    font-weight: 500;
+    font-size: var(--subtitle-size);
+    font-weight: 700;
     opacity: 0;
     animation: showText 0.5s 1.5s linear forwards;
 }
@@ -249,12 +249,6 @@ h2 {
     text-align: center;
 }
 
-.skills-bar .bar2 .info span {
-    font-size: var(--text-size);
-    font-weight: 700;
-}
-
-
 .picture {
     display: flex;
     flex-direction: column;
@@ -275,7 +269,7 @@ hr {
 
 
 
-@media screen and (min-width: 834px) {
+@media screen and (min-width: 568px) {
 
 
     .skills h1 {
