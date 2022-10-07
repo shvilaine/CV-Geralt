@@ -1,3 +1,13 @@
+.error-message {
+  text-align: center;
+  color: var(--dark-grey);
+  background-color: #dd6262;
+  margin: var(--margin);
+  list-style: none;
+  font-size: var(--subtitle-size);
+
+}
+
 body {
   background-image: url("background-geralt.png");
   background-size: cover;
@@ -58,8 +68,8 @@ textarea,
 select {
   box-sizing: border-box;
   width: 100%;
-  margin-top: 8px;
-  margin-bottom: var(--margin);
+  margin-top: 6px;
+  margin-bottom: 0.75em;
   padding: 0.5em;
   border: 1px solid var(--dark-grey);
   border-radius: 3px;
@@ -88,7 +98,7 @@ input[type="submit"]:hover {
   background-color: var(--red);
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 834px) {
   .thunes,
   h2 {
     font-size: var(--title-size);
