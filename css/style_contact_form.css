@@ -1,7 +1,6 @@
 .error-message {
   text-align: center;
-  color: var(--dark-grey);
-  background-color: #dd6262;
+  color: #a15f5f;
   margin: var(--margin);
   list-style: none;
   font-size: var(--subtitle-size);
@@ -9,8 +8,7 @@
 
 .success-message {
   text-align: center;
-  color: var(--dark-grey);
-  background-color: #82eb8b;
+  color: #6aa16f;
   margin: var(--margin);
   list-style: none;
   font-size: var(--subtitle-size);
