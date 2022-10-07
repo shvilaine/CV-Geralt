@@ -71,3 +71,12 @@ header h2 {
     color: var(--red);
 }
 
+/* 
+
+@media screen and (min-width: 1700px) and (min-height: 800px) {
+
+    .home {
+        margin-top: 3.5em;
+    }
+
+} */

@@ -52,6 +52,11 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: darkred;
+    text-decoration: dashed;
+}
+
 .roach {
     display: flex;
     flex-direction: column;

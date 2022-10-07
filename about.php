@@ -56,7 +56,7 @@
                     <li>Massacrer des monstres</li>
                     <li>Jouer au Gwynt (le meilleur jeu de cartes du monde)</li>
                     <li>Prendre soin d'Ablette, ma fidèle jument</li>
-                    <li>Rechercher ma fille Ciri. L'avez-vous vue ? Si oui, vous pouvez <a href="contact.php">me contacter ici.</a></li>
+                    <li>Rechercher ma fille Ciri. L'avez-vous vue ? Si oui, vous pouvez <a href="contact_form.php">me contacter ici.</a></li>
                 </ul>
             </div>
 
